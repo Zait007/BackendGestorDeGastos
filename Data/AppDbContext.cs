@@ -8,6 +8,5 @@ public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(op
     public DbSet<Persona> Personas { get; set; } = null!;
     public DbSet<Gasto> Gasto { get; set; } = null!;
     public DbSet<DetalleGasto> DetallesGasto { get; set; } = null!;
-    public DbSet<TipoGasto> TiposGasto { get; set; } = null!;
     public DbSet<Alertas> Alertas { get; set; } = null!;
 }

@@ -20,10 +20,6 @@ namespace BackendGestorDeGastos.Models
         [Required]
         public DateTime FechaNacimiento { get; set; }
 
-        [Required]
-        [StringLength(100)]
-        public string Email { get; set; } = null!;
-
         public Usuario Usuario { get; set; } = null!;
     }
 }

@@ -10,9 +10,7 @@ namespace BackendGestorDeGastos.Models
         [Key]
         public int IdGasto { get; set; }
 
-        [Required]
-        [ForeignKey("TipoGasto")]
-        public int IdTipo { get; set; }
+
 
         [Required]
         [ForeignKey("Usuario")]
@@ -26,8 +24,6 @@ namespace BackendGestorDeGastos.Models
 
         [Required]
         public bool Activo { get; set; }
-
-        public TipoGasto TipoGasto { get; set; } = null!;
         public Usuario Usuario { get; set; } = null!;
     }
 }
