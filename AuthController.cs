@@ -3,7 +3,8 @@ using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using BackendGestorDeGastos.Models; // Asegúrate de tener este namespace correcto
+using BackendGestorDeGastos.Models;
+using BackendGestorDeGastos.Data; // Asegúrate de tener este namespace correcto
 
 [Route("api/[controller]")]
 [ApiController]

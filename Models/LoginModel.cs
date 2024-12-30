@@ -2,8 +2,9 @@
 {
     public class LoginModel
     {
-        public string Usuario { get; set; }
-        public string Correo { get; set; }
-        public string Clave { get; set; }
+        public required string Usuario { get; set; }
+        public required string Correo { get; set; }
+        public required string Clave { get; set; }
+
     }
 }

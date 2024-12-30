@@ -1,6 +1,7 @@
 ﻿
 using System.ComponentModel.DataAnnotations;
 
+
 namespace BackendGestorDeGastos.Models
 {
     public class Usuario
